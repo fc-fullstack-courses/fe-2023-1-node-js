@@ -23,3 +23,5 @@ class MyMath {
 // експорт даних
 exports.MyMath = MyMath;
 exports.test = 'це воно';
+
+console.log('hello from myMath');
