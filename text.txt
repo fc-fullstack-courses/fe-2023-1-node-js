@@ -1,1 +1,7 @@
 Hello from text file
+
+
+1. ініціалізувати пакет (npm init)
+2. завантажити бібліотеку ( npm i lodash || npm install lodash )
+3. імпортувати бібліотеку в коді
+4. використати її
