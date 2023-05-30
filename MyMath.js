@@ -24,4 +24,9 @@ class MyMath {
 exports.MyMath = MyMath;
 exports.test = 'це воно';
 
+// const obj = {
+//   MyMath: MyMath,
+//   test: 'це воно'
+// }
+
 console.log('hello from myMath');

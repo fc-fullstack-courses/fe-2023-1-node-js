@@ -1,16 +1,11 @@
 'use strict';
 // імпорт модулів
-const { Component } = require('./Component');
-require('./src');
-require('./src/test');
-const exportsObj = require('./MyMath.js');
-const { MyMath, test } = exportsObj;
+const os = require('os'); // під'єднання вбудованного модуля
 
-const data = 12345;
+const myPlatform = os.platform();
 
-console.log(MyMath.sum(2, 2, 3, -1));
+console.log(myPlatform);
 
-console.log(MyMath.divide(100, 2, 5));
 /*
   процес імпорту у node JS (require)
 
