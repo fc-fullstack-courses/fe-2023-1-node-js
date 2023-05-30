@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/fc-fullstack-courses/fe-2023-1-node-js#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "pg": "^8.11.0",
+    "webpack": "^5.84.1"
   }
 }

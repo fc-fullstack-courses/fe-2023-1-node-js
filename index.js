@@ -1,7 +1,7 @@
 'use strict';
 // імпорт модулів
 const os = require('os'); // під'єднання вбудованного модуля
-
+const _ = require('lodash');
 // const fs = require('fs');
 // fs.promises;
 
@@ -13,6 +13,9 @@ fs.readFile('./text.txt', 'utf-8').then((textData) => {
   console.log(textData);
 });
 
+const number = _.random(20, 5000);
+
+console.log(number);
 /*
   процес імпорту у node JS (require)
 
