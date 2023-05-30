@@ -2,9 +2,16 @@
 // імпорт модулів
 const os = require('os'); // під'єднання вбудованного модуля
 
-const myPlatform = os.platform();
+// const fs = require('fs');
+// fs.promises;
 
-console.log(myPlatform);
+// const fs = require('fs').promises;
+
+const fs = require('fs/promises');
+
+fs.readFile('./text.txt', 'utf-8').then((textData) => {
+  console.log(textData);
+});
 
 /*
   процес імпорту у node JS (require)
