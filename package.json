@@ -2,9 +2,9 @@
   "name": "fe-2023-1-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start" : "node ./index.js",
+    "start": "node ./index.js",
     "abracadabra": "ls -l"
   },
   "repository": {
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/fc-fullstack-courses/fe-2023-1-node-js#readme",
   "dependencies": {
     "lodash": "^4.17.21",
-    "pg": "^8.11.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
     "webpack": "^5.84.1"
   }
 }
