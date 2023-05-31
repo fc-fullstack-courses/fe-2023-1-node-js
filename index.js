@@ -6,9 +6,20 @@
 // ESModules
 // імпорт за замовчанням
 // import MyMath from './MyMath.js';
-import MathClass from './MyMath.js'; // можна одразу писати іншу назву
+// import MathClass from './MyMath.js'; // можна одразу писати іншу назву
 
-console.log(MathClass);
+// іменовані імпорти
+// import { test, myFunc, data } from './MyMath.js';
+import { test, myFunc, data as newData, arr } from './MyMath.js'; // з перейменнуванням
+const [first] = arr;
+const data = 'not null';
+
+console.log(test);
+console.log(myFunc);
+console.log(data);
+console.log(newData);
+
+// console.log(MathClass);
 
 /*
   процес імпорту у node JS (require)

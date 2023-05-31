@@ -28,10 +28,16 @@ class MyMath {
 // module.exports.PI = 3.14;
 
 // експорт за замовчанням CommonJS
-// module.exports = MyMath; 
+// module.exports = MyMath;
 // module.exports = data; // перезапис !
 
 // ESModules
 //  експорт за замовчанням
-export default MyMath;
+// export default MyMath;
 // export default data; // помилка!
+
+// іменовані експорти
+export const test = 'це воно';
+export function myFunc() {}
+export { data, c };
+export const arr = [1,2,3];
