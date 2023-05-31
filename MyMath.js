@@ -23,16 +23,9 @@ class MyMath {
 // експорт даних
 
 // іменний експорт
-module.exports.MyMath = MyMath;
-module.exports.test = 'це воно';
-module.exports.PI = 3.14;
+// module.exports.MyMath = MyMath;
+// module.exports.test = 'це воно';
+// module.exports.PI = 3.14;
 
-// exports = MyMath;
-
-// console.log(module);
-// const obj = {
-//   MyMath: MyMath,
-//   test: 'це воно'
-// }
-
-// console.log('hello from myMath');
+// експорт за замовчанням
+module.exports = MyMath; 

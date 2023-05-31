@@ -1,9 +1,13 @@
 'use strict';
 // імпорт модулів
-const { MyMath, test } = require('./MyMath'); // іменний імпорт
+// const { MyMath, test } = require('./MyMath'); // іменний імпорт
+
+
+// console.log(test);
+
+const MyMath = require('./MyMath'); // імпорт за замовчанням
 
 console.log(MyMath);
-console.log(test);
 
 /*
   процес імпорту у node JS (require)
