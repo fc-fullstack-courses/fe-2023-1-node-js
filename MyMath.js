@@ -21,12 +21,18 @@ class MyMath {
 }
 
 // експорт даних
-exports.MyMath = MyMath;
-exports.test = 'це воно';
 
+// іменний експорт
+module.exports.MyMath = MyMath;
+module.exports.test = 'це воно';
+module.exports.PI = 3.14;
+
+// exports = MyMath;
+
+// console.log(module);
 // const obj = {
 //   MyMath: MyMath,
 //   test: 'це воно'
 // }
 
-console.log('hello from myMath');
+// console.log('hello from myMath');
