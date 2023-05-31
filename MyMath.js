@@ -33,7 +33,7 @@ class MyMath {
 
 // ESModules
 //  експорт за замовчанням
-// export default MyMath;
+export default MyMath;
 // export default data; // помилка!
 
 // іменовані експорти

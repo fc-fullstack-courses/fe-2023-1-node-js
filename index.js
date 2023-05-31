@@ -10,14 +10,20 @@
 
 // іменовані імпорти
 // import { test, myFunc, data } from './MyMath.js';
-import { test, myFunc, data as newData, arr } from './MyMath.js'; // з перейменнуванням
-const [first] = arr;
+// import { test, myFunc, data as newData, arr } from './MyMath.js'; // з перейменнуванням
+
+// комбінований імпорт
+// import MathClass, { test, myFunc, data as newData, arr } from './MyMath.js';
+import MyMath, * as Test from './MyMath.js'; // * складає всі дані в один об'єкт з вказаною назвою
+// const [first] = arr;
 const data = 'not null';
 
-console.log(test);
-console.log(myFunc);
-console.log(data);
-console.log(newData);
+console.log(Test);
+// console.log(MathClass);
+// console.log(test);
+// console.log(myFunc);
+// console.log(data);
+// console.log(newData);
 
 // console.log(MathClass);
 
