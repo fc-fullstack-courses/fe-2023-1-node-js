@@ -27,5 +27,11 @@ class MyMath {
 // module.exports.test = 'це воно';
 // module.exports.PI = 3.14;
 
-// експорт за замовчанням
-module.exports = MyMath; 
+// експорт за замовчанням CommonJS
+// module.exports = MyMath; 
+// module.exports = data; // перезапис !
+
+// ESModules
+//  експорт за замовчанням
+export default MyMath;
+// export default data; // помилка!

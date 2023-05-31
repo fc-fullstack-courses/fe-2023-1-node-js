@@ -1,13 +1,14 @@
 'use strict';
-// імпорт модулів
+// імпорт модулів CommonJS
 // const { MyMath, test } = require('./MyMath'); // іменний імпорт
+// const MyMath = require('./MyMath'); // імпорт за замовчанням
 
+// ESModules
+// імпорт за замовчанням
+// import MyMath from './MyMath.js';
+import MathClass from './MyMath.js'; // можна одразу писати іншу назву
 
-// console.log(test);
-
-const MyMath = require('./MyMath'); // імпорт за замовчанням
-
-console.log(MyMath);
+console.log(MathClass);
 
 /*
   процес імпорту у node JS (require)
